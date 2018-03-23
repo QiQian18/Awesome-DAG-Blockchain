@@ -11,10 +11,10 @@
 ## 目录
 
 + [DAG基础](#DAG基础)
-+ [早期文章](#早期文章)
++ [主要论文](#主要论文)
 + [典型实现](#典型实现)
 + [技术对比](#技术对比)
-+ [相关人物](相关人物)
++ [相关人物](#相关人物)
 
 
 ## DAG基础
@@ -23,14 +23,16 @@
 + [DAG在分布式版本控制Git上的应用](http://ericsink.com/vcbe/html/directed_acyclic_graphs.html)
 
 
-## 早期文章
+## 主要论文
 
 + [NXT论坛DAG帖](https://nxtforum.org/proof-of-stake-algorithm/dag-a-generalized-blockchain/) - 2014年帖子，需登录查看
 + [DAGCoin](https://bitslog.files.wordpress.com/2015/09/dagcoin-v41.pdf) - 2015年由Sergio Demian Lerner提出，但并没有代码实现
-+ [Accelerating Bitcoin’sTransaction Processing. Fast Money Grows on Trees, Not Chains.](https://eprint.iacr.org/2013/881.pdf) - 2013年由提出修改Bitcoin协议，从而加快确认速度
++ [Accelerating Bitcoin’s Transaction Processing. Fast Money Grows on Trees, Not Chains.](https://eprint.iacr.org/2013/881.pdf) - 2013年由提出修改Bitcoin协议，从而加快确认速度
++ [Secure High-Rate Transaction Processing in Bitcoin](http://www.avivz.net/pubs/15/btc_ghost.pdf) - 提出了GHOST（Greedy Heaviest-Observed Sub-Tree），Ethereum的共识就是基于GHOST
 + [Inclusive Block Chain Protocols](http://www.cs.huji.ac.il/~avivz/pubs/15/inclusive_btc.pdf) - 2015年提出DAG模型
-+ [SPECTRE:Serialization of Proof-of-work Events: Confirming Transactions via RecursiveElections.](https://eprint.iacr.org/2016/1159.pdf) - 基于DAG的分布式账本
-
++ [SPECTRE:Serialization of Proof-of-work Events: Confirming Transactions via Recursive Elections.](https://eprint.iacr.org/2016/1159.pdf) - 基于DAG的分布式账本
++ [PHANTOM: A Scalable BlockDAG protocol](https://eprint.iacr.org/2018/104.pdf)  - 解决了blockDAG全序的问题
+    + [部分译文 by DAGfans](https://github.com/DAGfans/TranStudy/blob/master/Papers/PHANTOM%20-%20A%20Scalable%20BlockDAG%20protocol.md)
 
 
 ## 典型实现
