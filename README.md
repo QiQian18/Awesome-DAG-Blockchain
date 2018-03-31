@@ -11,7 +11,7 @@
 ## 目录
 
 + [DAG基础](#DAG基础)
-+ [主要论文](#主要论文)
++ [主要文章](#主要文章)
 + [典型实现](#典型实现)
 + [技术对比](#技术对比)
 + [相关人物](#相关人物)
@@ -23,7 +23,7 @@
 + [DAG在分布式版本控制Git上的应用](http://ericsink.com/vcbe/html/directed_acyclic_graphs.html)
 
 
-## 主要论文
+## 主要文章
 
 + [NXT论坛DAG帖](https://nxtforum.org/proof-of-stake-algorithm/dag-a-generalized-blockchain/) - 2014年帖子，需登录查看
 + [DAGCoin](https://bitslog.files.wordpress.com/2015/09/dagcoin-v41.pdf) - 2015年由Sergio Demian Lerner提出，但并没有代码实现
@@ -120,6 +120,8 @@
   + [Python实现](https://github.com/Lapin0t/py-swirld)
   + [NodeJS实现](https://github.com/TheCallSign/hashgraph)
   + [Go实现](https://github.com/babbleio/babble)
++ 评测：
+  + [区块链败局已定，Hashgraph 才是未来？](http://mp.weixin.qq.com/s/9KlHqfGHLf9cELL4x98UCw)
 
 ### 其它
 
