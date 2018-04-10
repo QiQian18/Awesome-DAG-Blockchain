@@ -10,11 +10,19 @@
 
 ## 目录
 
++ [科普介绍](#科普介绍)
 + [DAG基础](#DAG基础)
 + [主要文章](#主要文章)
 + [典型实现](#典型实现)
-+ [技术对比](#技术对比)
++ [技术评测](#技术评测)
 + [相关人物](#相关人物)
+
+## 科普介绍
+
++ [Future of digital currency may not involve blockchains](https://cointelegraph.com/news/future-of-digital-currency-may-not-involve-blockchains)
++ [Will Other Distributed Ledgers Replace Blockchain?](https://coincentral.com/dag-replace-blockchain/)
++ [解不开的缠结和IOTA的泪](http://mp.weixin.qq.com/s/BXf3BTMDGVbMheRQjZXQPw)
++ [Byteball这个项目太让人兴奋了！](https://mp.weixin.qq.com/s/vDo-mSxtSWxaJdyfNzhRMA)
 
 
 ## DAG基础
@@ -85,6 +93,7 @@
 - [官网](https://trustnote.org/)
 - [白皮书](https://trustnote.org/TrustNote-WhitePaper.pdf)
 - [代码库](https://github.com/trustnote)
+- [创世贴](https://bitcointalk.org/index.php?topic=3116483.0)
 
 ### Nerthus
 
@@ -131,11 +140,13 @@
 
 
 
-## 技术对比
+## 技术评测
 
 + [IOTA vs RaiBlocks](https://hackernoon.com/iota-vs-raiblocks-413679bb4c3e)
 + [DAG coin comparison (Byteball, IOTA, RaiBlocks, etc)](https://web.archive.org/web/20171211100146/https://www.reddit.com/r/CryptoCurrency/comments/7iv20r/dag_coin_comparison_byteball_iota_raiblocks_etc/)
 + [ByteBall vs IOTA - battle of two DAG cryptocurrencies](https://steemit.com/cryptocurrency/@jimmco/byteball-vs-iota-battle-of-two-dag-cryptocurrencies)
++ [Blockchain vs DAG (Byteball's concencus algorithm).](https://bitcointalk.org/index.php?topic=1799665.0)
++ [神级项目Hashgraph真的能成为区块链终结者吗？](http://mp.weixin.qq.com/s/BXf3BTMDGVbMheRQjZXQPw)
 
 
 
