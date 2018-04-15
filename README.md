@@ -138,6 +138,7 @@
   + [区块链败局已定，Hashgraph 才是未来？](http://mp.weixin.qq.com/s/9KlHqfGHLf9cELL4x98UCw)
   + [Hashgraph —— 或许是目前最为优秀的共识协议](http://mp.weixin.qq.com/s/eo8QiCNwphKJ4m-j43fhEA)
   + [神级项目Hashgraph真的能成为区块链终结者吗？](http://mp.weixin.qq.com/s/BXf3BTMDGVbMheRQjZXQPw)
+  + [未来的分布式账本技术:不是区块链，是哈希图?](https://zhuanlan.zhihu.com/p/33558463?group_id=948705960718454784)
 
 ### 其它
 
