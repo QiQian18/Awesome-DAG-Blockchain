@@ -21,8 +21,8 @@
 
 + [Future of digital currency may not involve blockchains](https://cointelegraph.com/news/future-of-digital-currency-may-not-involve-blockchains)
 + [Will Other Distributed Ledgers Replace Blockchain?](https://coincentral.com/dag-replace-blockchain/)
-+ [解不开的缠结和IOTA的泪](http://mp.weixin.qq.com/s/BXf3BTMDGVbMheRQjZXQPw)
-+ [Byteball这个项目太让人兴奋了！](https://mp.weixin.qq.com/s/vDo-mSxtSWxaJdyfNzhRMA)
++ [Scaling cryptocurrencies: DAGs](https://codeburst.io/scaling-crypto-dags-82363451e753)
++ [警报！一大波DAG公链正在接近！](http://mp.weixin.qq.com/s/YypTjeuWd4RCAJbDvAmucA)
 
 
 ## DAG基础
@@ -51,6 +51,9 @@
 + [官网](https://iota.org/)
 + [白皮书](https://iota.org/IOTA_Whitepaper.pdf)
 + [代码库](https://github.com/iotaledger)
++ 相关文章：
+  + [解不开的缠结和IOTA的泪](http://mp.weixin.qq.com/s/BXf3BTMDGVbMheRQjZXQPw)
+  + [Cryptographic vulnerabilities in IOTA](https://medium.com/@neha/cryptographic-vulnerabilities-in-iota-9a6a9ddc4367)
 
 ### Byteball
 
@@ -58,7 +61,7 @@
 + [官网](http://byteball.org/)
 + [白皮书](https://byteball.org/Byteball.pdf)
 + [代码库](https://github.com/byteball)
-+ 相关资源：
++ 相关文章：
   + [byteball介绍1](https://medium.com/@Suirelav/introduction-to-byteball-part-1-why-ab3ff6a7a8f2) - byteball的产生原因
   + [byteball介绍2](https://medium.com/@Suirelav/introduction-to-byteball-part-2-the-dag-ce84ca4c4e01) - DAG技术
   + [byteball介绍3](https://medium.com/@Suirelav/introduction-to-byteball-part-3-smart-contracts-81efa010a0b3) - 智能合约
@@ -69,6 +72,8 @@
   + [byteball原理解析4](http://blog.guantau.com/2018/01/26/byteball4/) - byteball的网络结构
   + [byteball原理解析5](http://blog.guantau.com/2018/01/30/byteball5/) - byteball的应用
   + [byteball主网压力测试](https://blog.goodaudience.com/byteball-main-net-under-stress-test-c131ba85b72b) - 测试给出了三点结论：（1）交易处理速度仅能达到15TPS左右，不同于传统区块链交易处理速度受限于区块大小，DAG网络的交易处理速度与代码执行速度、网络传输时延、硬件处理能力等都可能有关系；（2）网络容易遭受DOS攻击，大量突发式的恶意交易会阻塞网络，降低网络的交易处理速度；（3）随着交易数量增加，交易确认时间可以保持平稳。
+  + [Byteball这个项目太让人兴奋了！](https://mp.weixin.qq.com/s/vDo-mSxtSWxaJdyfNzhRMA)
+  + [Byteball-NG 新一代DAG区块链](https://medium.com/@iamliqiang/byteball-ng-%E6%96%B0%E4%B8%80%E4%BB%A3dag%E5%8C%BA%E5%9D%97%E9%93%BE-dd353cede558)
 
 ### NANO
 
@@ -76,7 +81,7 @@
 + [官网](https://nano.org/)
 + [白皮书](https://nano.org/zh/whitepaper)
 + [代码库](https://github.com/nanocurrency)
-+ 相关资源：
++ 相关文章：
   + [RaiBlocks网络压力测试1](https://hackernoon.com/stress-testing-the-raiblocks-network-568be62fdf6d)
   + [RaiBlocks网络压力测试2](https://medium.com/@bnp117/stress-testing-the-raiblocks-network-part-ii-def83653b21f)
 
@@ -129,8 +134,10 @@
   + [Python实现](https://github.com/Lapin0t/py-swirld)
   + [NodeJS实现](https://github.com/TheCallSign/hashgraph)
   + [Go实现](https://github.com/babbleio/babble)
-+ 评测：
++ 相关文章：
   + [区块链败局已定，Hashgraph 才是未来？](http://mp.weixin.qq.com/s/9KlHqfGHLf9cELL4x98UCw)
+  + [Hashgraph —— 或许是目前最为优秀的共识协议](http://mp.weixin.qq.com/s/eo8QiCNwphKJ4m-j43fhEA)
+  + [神级项目Hashgraph真的能成为区块链终结者吗？](http://mp.weixin.qq.com/s/BXf3BTMDGVbMheRQjZXQPw)
 
 ### 其它
 
@@ -146,7 +153,6 @@
 + [DAG coin comparison (Byteball, IOTA, RaiBlocks, etc)](https://web.archive.org/web/20171211100146/https://www.reddit.com/r/CryptoCurrency/comments/7iv20r/dag_coin_comparison_byteball_iota_raiblocks_etc/)
 + [ByteBall vs IOTA - battle of two DAG cryptocurrencies](https://steemit.com/cryptocurrency/@jimmco/byteball-vs-iota-battle-of-two-dag-cryptocurrencies)
 + [Blockchain vs DAG (Byteball's concencus algorithm).](https://bitcointalk.org/index.php?topic=1799665.0)
-+ [神级项目Hashgraph真的能成为区块链终结者吗？](http://mp.weixin.qq.com/s/BXf3BTMDGVbMheRQjZXQPw)
 
 
 
