@@ -15,6 +15,7 @@
 + [主要文章](#主要文章)
 + [典型实现](#典型实现)
 + [技术评测](#技术评测)
++ [相关视频](#相关视频)
 + [相关人物](#相关人物)
 
 ## 科普介绍
@@ -23,7 +24,7 @@
 + [Will Other Distributed Ledgers Replace Blockchain?](https://coincentral.com/dag-replace-blockchain/)
 + [Scaling cryptocurrencies: DAGs](https://codeburst.io/scaling-crypto-dags-82363451e753)
 + [警报！一大波DAG公链正在接近！](http://mp.weixin.qq.com/s/YypTjeuWd4RCAJbDvAmucA)
-
++ [Blockchain and the Challengers](https://blog.goodaudience.com/blockchain-and-the-challengers-74e22cf0cf4e)
 
 ## DAG基础
 
@@ -54,6 +55,7 @@
 + 相关文章：
   + [解不开的缠结和IOTA的泪](http://mp.weixin.qq.com/s/BXf3BTMDGVbMheRQjZXQPw)
   + [Cryptographic vulnerabilities in IOTA](https://medium.com/@neha/cryptographic-vulnerabilities-in-iota-9a6a9ddc4367)
+  + [10分钟看懂曾飙涨千倍却暗藏风险的IOTA和它的DAG](http://mp.weixin.qq.com/s/RV9Buz_J2s-ZeufPV7afTg)
 
 ### Byteball
 
@@ -139,13 +141,12 @@
   + [Hashgraph —— 或许是目前最为优秀的共识协议](http://mp.weixin.qq.com/s/eo8QiCNwphKJ4m-j43fhEA)
   + [神级项目Hashgraph真的能成为区块链终结者吗？](http://mp.weixin.qq.com/s/BXf3BTMDGVbMheRQjZXQPw)
   + [未来的分布式账本技术:不是区块链，是哈希图?](https://zhuanlan.zhihu.com/p/33558463?group_id=948705960718454784)
+  + [Zillqa CTO谈Hashgraph](http://mp.weixin.qq.com/s/22sKqQerMPav5XltTydUoQ)
 
 ### 其它
 
 + [daglabs](https://www.daglabs.com/) - 主要实现SPECTRE和PHANTOM两种DAG上的共识算法
 + [Get Rid of Blocks](http://slides.com/davidvorick/braids)
-
-
 
 
 ## 技术评测
@@ -155,6 +156,7 @@
 + [ByteBall vs IOTA - battle of two DAG cryptocurrencies](https://steemit.com/cryptocurrency/@jimmco/byteball-vs-iota-battle-of-two-dag-cryptocurrencies)
 + [Blockchain vs DAG (Byteball's concencus algorithm).](https://bitcointalk.org/index.php?topic=1799665.0)
 
+## 相关视频
 
 
 
@@ -168,3 +170,5 @@
 + Sergey Ivancheglo
 + Anton Churyumov
 + Leemon Baird
+
+
