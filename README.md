@@ -25,6 +25,7 @@
 + [Scaling cryptocurrencies: DAGs](https://codeburst.io/scaling-crypto-dags-82363451e753)
 + [警报！一大波DAG公链正在接近！](http://mp.weixin.qq.com/s/YypTjeuWd4RCAJbDvAmucA)
 + [Blockchain and the Challengers](https://blog.goodaudience.com/blockchain-and-the-challengers-74e22cf0cf4e)
++ [区块链共识机制分析——论PoW，PoS，DPos和DAG的优缺点](http://www.8btc.com/blockchain-concensus-mech)
 
 ## DAG基础
 
@@ -142,6 +143,20 @@
   + [神级项目Hashgraph真的能成为区块链终结者吗？](http://mp.weixin.qq.com/s/BXf3BTMDGVbMheRQjZXQPw)
   + [未来的分布式账本技术:不是区块链，是哈希图?](https://zhuanlan.zhihu.com/p/33558463?group_id=948705960718454784)
   + [Zillqa CTO谈Hashgraph](http://mp.weixin.qq.com/s/22sKqQerMPav5XltTydUoQ)
+
+### COTI
+
++ 简介：基于DAG的新型数字支付，提出Trust Chain共识
++ [官网](https://www.coti.io)
++ [白皮书](https://www.coti.io/en/files/COTI-overview-document.pdf?v=a059736e358)
++ 相关文章：
+  + [共识算法](https://www.coti.io/en/files/COTI-technical-whitepaper.pdf?v=a059736e358)
+
+### CyberVein
+
++ 简介：为DAG引入了一种新型资源节约共识机制，重塑了去中心化数据库，以及人们保护信息并实现信息资产化的方式
++ [官网](https://www.cybervein.org/)
++ [白皮书](https://www.cybervein.org/whitepaper)
 
 ### 其它
 
