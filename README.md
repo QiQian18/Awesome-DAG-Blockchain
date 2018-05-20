@@ -6,7 +6,8 @@
 
 这个仓库主要是用来搜集与基于DAG技术的区块链相关的资源，请随意Star或者Fork。如果有任何建议和评论，[请提交到这里](https://github.com/guantau/Awesome-DAG-Blockchain/issues)。欢迎提交各种PR :)，格式参考 [awesome](https://github.com/sindresorhus/awesome) 的清单。
 
-> 喜欢DAG技术的小伙伴有根据地啦，欢迎来我们的DAG技术研究室（ https://daglabs.io/ ）交流及投稿
+> 喜欢DAG技术的小伙伴有根据地啦，欢迎来我们的DAG技术研究室（ https://daglabs.io/ ）交流及投稿并关注我们的公众号
+> ![](http://oc7urqs4c.bkt.clouddn.com/2018-05-20-daglabs_qrcode.jpg)
 
 
 [中文](README.md) | [English](README-en.md)
