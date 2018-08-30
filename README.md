@@ -162,6 +162,14 @@
 + [官网](https://www.cybervein.org/)
 + [白皮书](https://www.cybervein.org/whitepaper)
 
+### MOL
+
++ 简介：即时免交易费的DAG公有链
++ [官网](https://www.mol.one/)
++ [白皮书](https://www.mol.one/static/assets/Whitepaper.pdf)
++ [钱包](https://www.mol.one/wallet.html)
+
+
 ### 其它
 
 + [daglabs](https://www.daglabs.com/) - 主要实现SPECTRE和PHANTOM两种DAG上的共识算法
