@@ -92,6 +92,13 @@
   + [RaiBlocks网络压力测试1](https://hackernoon.com/stress-testing-the-raiblocks-network-568be62fdf6d)
   + [RaiBlocks网络压力测试2](https://medium.com/@bnp117/stress-testing-the-raiblocks-network-part-ii-def83653b21f)
 
+### DAGX
+
++ 简介：基于DAG的价值互联与交换网络
++ [官网](https://dagx.io/)
++ [白皮书](https://dagx.io/dagx.pdf)
++ [代码库](https://github.com/dagxio)
+
 ### DAGCoin
 
 + 简介：基于Byteball代码进行修改
