@@ -30,6 +30,12 @@
 + [警报！一大波DAG公链正在接近！](http://mp.weixin.qq.com/s/YypTjeuWd4RCAJbDvAmucA)
 + [Blockchain and the Challengers](https://blog.goodaudience.com/blockchain-and-the-challengers-74e22cf0cf4e)
 + [区块链共识机制分析——论PoW，PoS，DPos和DAG的优缺点](http://www.8btc.com/blockchain-concensus-mech)
++ [A Beginner’s Ultimate Guide To DAGs](https://hackernoon.com/a-beginners-ultimate-guide-to-dags-7fc0dd7f39a2)
++ [An Introduction to the BlockDAG Paradigm](https://blog.daglabs.com/an-introduction-to-the-blockdag-paradigm-50027f44facb)
++ [DAG vs Blockchain](https://medium.com/crypto-mails/cryptography-dag-vs-blockchain-f4bb4d4590c2)
++ [Ledgers over the years - from ancient Egypt to blockchain, DAG and beyond](https://medium.com/@COTInetwork/ledgers-over-the-years-from-ancient-egypt-to-blockchain-dag-and-beyond-47924175cb97)
++ [Scaling cryptocurrencies: DAGs](https://codeburst.io/scaling-crypto-dags-82363451e753)
++ [Scaling crypto (idea): DAG + “clockchain”](https://medium.com/@thedavidmeister/scaling-crypto-idea-dag-clockchain-7809532c76bc)
 
 ## DAG基础
 
@@ -65,6 +71,7 @@
   + [Cryptographic vulnerabilities in IOTA](https://medium.com/@neha/cryptographic-vulnerabilities-in-iota-9a6a9ddc4367)
   + [创始人come-from-beyond解释IOTA的经济学考虑](https://medium.com/@comefrombeyond/economic-clustering-and-iota-d3a77388900)
   + [IOTA可视化展示](https://public-rdsdavdrpd.now.sh/)
+  + [IOTA is centralized](https://medium.com/@ercwl/iota-is-centralized-6289246e7b4d)
 
 ### Byteball
 
@@ -85,6 +92,8 @@
   + [byteball主网压力测试](https://blog.goodaudience.com/byteball-main-net-under-stress-test-c131ba85b72b) - 测试给出了三点结论：（1）交易处理速度仅能达到15TPS左右，不同于传统区块链交易处理速度受限于区块大小，DAG网络的交易处理速度与代码执行速度、网络传输时延、硬件处理能力等都可能有关系；（2）网络容易遭受DOS攻击，大量突发式的恶意交易会阻塞网络，降低网络的交易处理速度；（3）随着交易数量增加，交易确认时间可以保持平稳。
   + [Byteball这个项目太让人兴奋了！](https://mp.weixin.qq.com/s/vDo-mSxtSWxaJdyfNzhRMA)
   + [Byteball-NG 新一代DAG区块链](https://medium.com/@iamliqiang/byteball-ng-%E6%96%B0%E4%B8%80%E4%BB%A3dag%E5%8C%BA%E5%9D%97%E9%93%BE-dd353cede558)
+  + [Byteball +2 mutations brute force attack](https://blog.goodaudience.com/byteball-2-mutations-brute-force-attack-29fc1f49c654)
+  + [Byteball move proposal](https://blog.goodaudience.com/byteball-move-proposal-831187509ed0)
 
 ### NANO
 
@@ -111,6 +120,16 @@
   + [神级项目Hashgraph真的能成为区块链终结者吗？](http://mp.weixin.qq.com/s/BXf3BTMDGVbMheRQjZXQPw)
   + [未来的分布式账本技术:不是区块链，是哈希图?](https://zhuanlan.zhihu.com/p/33558463?group_id=948705960718454784)
   + [Zillqa CTO谈Hashgraph](http://mp.weixin.qq.com/s/22sKqQerMPav5XltTydUoQ)
+  + [Hashgraph: Will It Make Blockchain Obsolete?](https://coinsutra.com/hedera-hashgraph/) - 基础原理分析
+  + [Building with HashGraph Part 1: Introduction](https://medium.com/hackers-at-cambridge/building-with-hashgraph-part-1-introduction-3232f9ea89ef) - HashGraph开发指南（一）
+  + [Building with HashGraph Part 2: Technical Workthrough](https://medium.com/hackers-at-cambridge/building-with-hashgraph-part-2-technical-workthrough-af63eefa53f2) - HashGraph开发指南（二）
+  + [Why Hashgraph will never replace Blockchain](https://medium.com/@Lansana/i-was-wrong-hashgraph-is-actually-very-bad-bf7d9b2e8d99)
+  + [Inside the Distributed Ledger World; Is the Hashgraph Better Than the Blockchain?](https://medium.com/@nucfootball/inside-the-distributed-ledger-world-is-the-hashgraph-better-than-the-blockchain-6be1f76f7cd5)
+  + [Blockchain Just Became Obsolete. The Future is Hashgraph](https://medium.com/@justindanneman/blockchain-just-became-obsolete-the-future-is-hashgraph-de4948609cbf)
+  + [HASHGRAPH Python Implementation.](https://medium.com/@vaibhavsaini_67863/hashgraph-python-implementation-501c5ad47531)
+  + [Demystifying Hashgraph: Benefits and Challenges](https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5)
+  + [Is The Future Of Blockchains DAGs ?— 5 Takeaways From The Hashgraph Event In NYC on March 13th](https://medium.com/crypto-oracle/is-the-future-of-blockchains-dags-5-lessons-from-the-hashgraph-event-in-nyc-on-march-13th-ff0f7e0fa510)
+  + [Hedera Hashgraph and a few thoughts on the future of distributed ledgers](https://medium.com/@eburgwedel/hedera-hashgraph-and-a-few-thoughts-on-the-future-of-distributed-ledgers-648e9eefb901)
 
 ### COTI
 
@@ -118,7 +137,9 @@
 + [官网](https://www.coti.io)
 + [白皮书](https://www.coti.io/en/files/COTI-overview-document.pdf?v=a059736e358)
 + 相关文章：
-  + [共识算法](https://www.coti.io/en/files/COTI-technical-whitepaper.pdf?v=a059736e358)
+  + [技术白皮书](https://www.coti.io/en/files/COTI-technical-whitepaper.pdf?v=a059736e358)
+  + [The Trustchain Consensus](https://medium.com/cotinetwork/the-trustchain-consensus-44a0c807c71d) - 共识算法介绍
+  + [2018 could be the year of non-leader-based consensus mechanisms](https://medium.com/cotinetwork/2018-could-be-the-year-of-non-leader-based-consensus-mechanisms-c1d072c71ff9)
 
 ### CyberVein
 
@@ -201,6 +222,10 @@
 + [DAG coin comparison (Byteball, IOTA, RaiBlocks, etc)](https://web.archive.org/web/20171211100146/https://www.reddit.com/r/CryptoCurrency/comments/7iv20r/dag_coin_comparison_byteball_iota_raiblocks_etc/)
 + [ByteBall vs IOTA - battle of two DAG cryptocurrencies](https://steemit.com/cryptocurrency/@jimmco/byteball-vs-iota-battle-of-two-dag-cryptocurrencies)
 + [Blockchain vs DAG (Byteball's concencus algorithm).](https://bitcointalk.org/index.php?topic=1799665.0)
++ [Blockchain vs DAG (Directed Acyclic Graphs) vs Byteball](https://medium.com/coinmonks/blockchain-vs-dag-directed-acyclic-graphs-vs-byteball-c10250702521)
++ [Confirmation Times in SPECTRE](https://blog.daglabs.com/confirmation-times-in-spectre-7f68fec0d997)
++ [IOTA and SPECTRE](https://medium.com/@johndom/iota-and-spectre-64ee12d9b1a8)
++ [Scaling a Blockchain vs Scaling a Tangle - Pointing out possible weaknesses in the DAG scalability](https://medium.com/coinmonks/scaling-a-blockchain-vs-scaling-a-tangle-8b7182eda980)
 
 ## 相关视频
 
