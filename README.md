@@ -16,8 +16,8 @@
 
 + [科普介绍](#科普介绍)
 + [DAG基础](#DAG基础)
-+ [主要文章](#主要文章)
-+ [典型实现](#典型实现)
++ [主要论文](#主要论文)
++ [典型项目](#典型项目)
 + [技术评测](#技术评测)
 + [相关视频](#相关视频)
 + [相关人物](#相关人物)
@@ -37,7 +37,7 @@
 + [DAG在分布式版本控制Git上的应用](http://ericsink.com/vcbe/html/directed_acyclic_graphs.html)
 
 
-## 主要文章
+## 主要论文
 
 + [NXT论坛DAG帖](https://nxtforum.org/proof-of-stake-algorithm/dag-a-generalized-blockchain/) - 2014年帖子，需登录查看
 + [DAGCoin](https://bitslog.files.wordpress.com/2015/09/dagcoin-v41.pdf) - 2015年由Sergio Demian Lerner提出，但并没有代码实现
@@ -46,10 +46,12 @@
 + [Inclusive Block Chain Protocols](http://www.cs.huji.ac.il/~avivz/pubs/15/inclusive_btc.pdf) - 2015年提出DAG模型
 + [SPECTRE:Serialization of Proof-of-work Events: Confirming Transactions via Recursive Elections.](https://eprint.iacr.org/2016/1159.pdf) - 基于DAG的分布式账本
 + [PHANTOM: A Scalable BlockDAG protocol](https://eprint.iacr.org/2018/104.pdf)  - 解决了blockDAG全序的问题
-    + [部分译文 by DAGfans](https://github.com/DAGfans/TranStudy/blob/master/Papers/PHANTOM%20-%20A%20Scalable%20BlockDAG%20protocol.md)
+    + [中文翻译](https://github.com/DAGfans/TranStudy/blob/master/Papers/PHANTOM%20-%20A%20Scalable%20BlockDAG%20protocol.md)
++ [Snowflake to Avalanche: A Novel Metastable Consensus Protocol Family for Cryptocurrencies](https://ipfs.io/ipfs/QmUy4jh5mGNZvLkjies1RWM4YuvJh5o2FYopNPVYwrRVGV) - 新型的DAG协议Avalanche
++ [Scaling Nakamoto Consensus to Thousands of Transactions per Second](https://arxiv.org/pdf/1805.03870.pdf) - 新型的DAG协议Conflux
 
 
-## 典型实现
+## 典型项目
 
 ### IOTA
 
@@ -59,8 +61,10 @@
 + [代码库](https://github.com/iotaledger)
 + 相关文章：
   + [解不开的缠结和IOTA的泪](http://mp.weixin.qq.com/s/BXf3BTMDGVbMheRQjZXQPw)
-  + [Cryptographic vulnerabilities in IOTA](https://medium.com/@neha/cryptographic-vulnerabilities-in-iota-9a6a9ddc4367)
   + [10分钟看懂曾飙涨千倍却暗藏风险的IOTA和它的DAG](http://mp.weixin.qq.com/s/RV9Buz_J2s-ZeufPV7afTg)
+  + [Cryptographic vulnerabilities in IOTA](https://medium.com/@neha/cryptographic-vulnerabilities-in-iota-9a6a9ddc4367)
+  + [创始人come-from-beyond解释IOTA的经济学考虑](https://medium.com/@comefrombeyond/economic-clustering-and-iota-d3a77388900)
+  + [IOTA可视化展示](https://public-rdsdavdrpd.now.sh/)
 
 ### Byteball
 
@@ -92,53 +96,6 @@
   + [RaiBlocks网络压力测试1](https://hackernoon.com/stress-testing-the-raiblocks-network-568be62fdf6d)
   + [RaiBlocks网络压力测试2](https://medium.com/@bnp117/stress-testing-the-raiblocks-network-part-ii-def83653b21f)
 
-### DAGX
-
-+ 简介：基于DAG的价值互联与交换网络
-+ [官网](https://dagx.io/)
-+ [白皮书](https://dagx.io/dagx.pdf)
-+ [代码库](https://github.com/dagxio)
-
-### DAGCoin
-
-+ 简介：基于Byteball代码进行修改
-+ [官网](https://dagcoin.org/)
-+ [白皮书](https://dagcoin.org/whitepaper.pdf)
-+ [代码库](https://github.com/dagcoin/)
-
-### TrustNote
-
-- 简介：基于Byteball代码进行修改
-- [官网](https://trustnote.org/)
-- [白皮书](https://trustnote.org/TrustNote-WhitePaper.pdf)
-- [代码库](https://github.com/trustnote)
-- [创世贴](https://bitcointalk.org/index.php?topic=3116483.0)
-
-### Nerthus
-
-- 简介：基于DAG通用的智能合约编程平台与区块链操作系统
-- [官网](http://nerthus.io/)
-- [白皮书](http://nerthus.io/static/downfile/NerthusWhitePageV0.0.2.pdf)
-
-### AskCoin（已死）
-
-- 简介：基于DAG的知识付费
-- [尸体](https://blog.askcoin.org/askcoin-in-one-page-f284bb3d9b42)
-
-### IOT Chain
-
-- 简介：使用PBFT+DAG
-- [官网](https://iotchain.io/)
-- [白皮书](https://iotchain.io/whitepaper/ITCWHITEPAPER.pdf)
-- [代码库](https://github.com/IoTChainCode)
-
-### XDAG
-
-- 简介：首个可以挖矿的DAG
-- [创世贴](https://bitcointalk.org/index.php?topic=2552368.0)
-- [官网](http://xdag.io/)
-- [白皮书](https://docs.google.com/document/d/1ruNpTVghy0Xsb8gOa-8sYG58GHU_ibeGnwJi2h0TTnA/edit)
-
 ### HashGraph
 
 + 简介：一种新型的DAG技术
@@ -169,12 +126,67 @@
 + [官网](https://www.cybervein.org/)
 + [白皮书](https://www.cybervein.org/whitepaper)
 
+### Perlin
+
++ 简介：实现了Avalanche协议，分为共识层和计算层
++ [官网](https://www.perlin.net/)
++ [白皮书](https://ipfs.io/ipfs/QmXNJXNtxFDg5vwBiXuDSUGpfatakock1qJzQkNujzrP37)
++ [代码库](https://github.com/perlin-network)
+
+### DAGX
+
++ 简介：基于DAG的价值互联与交换网络
++ [官网](https://dagx.io/)
++ [白皮书](https://dagx.io/dagx.pdf)
++ [代码库](https://github.com/dagxio)
+
+### DAGCoin
+
++ 简介：基于Byteball代码进行修改
++ [官网](https://dagcoin.org/)
++ [白皮书](https://dagcoin.org/whitepaper.pdf)
++ [代码库](https://github.com/dagcoin/)
+
+### TrustNote
+
+- 简介：基于Byteball代码进行修改
+- [官网](https://trustnote.org/)
+- [白皮书](https://trustnote.org/TrustNote-WhitePaper.pdf)
+- [代码库](https://github.com/trustnote)
+- [创世贴](https://bitcointalk.org/index.php?topic=3116483.0)
+
+### Nerthus
+
+- 简介：基于DAG通用的智能合约编程平台与区块链操作系统
+- [官网](http://nerthus.io/)
+- [白皮书](http://nerthus.io/static/downfile/NerthusWhitePageV0.0.2.pdf)
+
+### IOT Chain
+
+- 简介：使用PBFT+DAG
+- [官网](https://iotchain.io/)
+- [白皮书](https://iotchain.io/whitepaper/ITCWHITEPAPER.pdf)
+- [代码库](https://github.com/IoTChainCode)
+
+### XDAG
+
+- 简介：首个可以挖矿的DAG
+- [创世贴](https://bitcointalk.org/index.php?topic=2552368.0)
+- [官网](http://xdag.io/)
+- [白皮书](https://docs.google.com/document/d/1ruNpTVghy0Xsb8gOa-8sYG58GHU_ibeGnwJi2h0TTnA/edit)
+
 ### MOL
 
 + 简介：即时免交易费的DAG公有链
 + [官网](https://www.mol.one/)
 + [白皮书](https://www.mol.one/static/assets/Whitepaper.pdf)
 + [钱包](https://www.mol.one/wallet.html)
+
+
+### AskCoin（未完成）
+
+- 简介：基于DAG的知识付费
+- [白皮书](https://blog.askcoin.org/askcoin-in-one-page-f284bb3d9b42)
 
 
 ### 其它
