@@ -36,6 +36,7 @@
 + [Ledgers over the years - from ancient Egypt to blockchain, DAG and beyond](https://medium.com/@COTInetwork/ledgers-over-the-years-from-ancient-egypt-to-blockchain-dag-and-beyond-47924175cb97)
 + [Scaling cryptocurrencies: DAGs](https://codeburst.io/scaling-crypto-dags-82363451e753)
 + [Scaling crypto (idea): DAG + “clockchain”](https://medium.com/@thedavidmeister/scaling-crypto-idea-dag-clockchain-7809532c76bc)
++ [白话DAG：第3代区块链技术DAG全面盘点](https://bbfans.org/2018/05/21/dag-blockchain-review/)
 
 ## DAG基础
 
@@ -84,16 +85,25 @@
   + [byteball介绍2](https://medium.com/@Suirelav/introduction-to-byteball-part-2-the-dag-ce84ca4c4e01) - DAG技术
   + [byteball介绍3](https://medium.com/@Suirelav/introduction-to-byteball-part-3-smart-contracts-81efa010a0b3) - 智能合约
   + [byteball介绍4](https://medium.com/@Suirelav/introduction-to-byteball-part-4-adoption-ff37d87615c9) - byteball的各种应用
-  + [byteball原理解析1](http://blog.guantau.com/2017/12/14/byteball1/) - DAG数学基础及byteball区块链结构
-  + [byteball原理解析2](http://blog.guantau.com/2017/12/19/byteball2/) - byteball的共识算法
-  + [byteball原理解析3](http://blog.guantau.com/2018/01/19/byteball3/) - byteball的地址、脚本及合约
-  + [byteball原理解析4](http://blog.guantau.com/2018/01/26/byteball4/) - byteball的网络结构
-  + [byteball原理解析5](http://blog.guantau.com/2018/01/30/byteball5/) - byteball的应用
   + [byteball主网压力测试](https://blog.goodaudience.com/byteball-main-net-under-stress-test-c131ba85b72b) - 测试给出了三点结论：（1）交易处理速度仅能达到15TPS左右，不同于传统区块链交易处理速度受限于区块大小，DAG网络的交易处理速度与代码执行速度、网络传输时延、硬件处理能力等都可能有关系；（2）网络容易遭受DOS攻击，大量突发式的恶意交易会阻塞网络，降低网络的交易处理速度；（3）随着交易数量增加，交易确认时间可以保持平稳。
   + [Byteball这个项目太让人兴奋了！](https://mp.weixin.qq.com/s/vDo-mSxtSWxaJdyfNzhRMA)
   + [Byteball-NG 新一代DAG区块链](https://medium.com/@iamliqiang/byteball-ng-%E6%96%B0%E4%B8%80%E4%BB%A3dag%E5%8C%BA%E5%9D%97%E9%93%BE-dd353cede558)
   + [Byteball +2 mutations brute force attack](https://blog.goodaudience.com/byteball-2-mutations-brute-force-attack-29fc1f49c654)
   + [Byteball move proposal](https://blog.goodaudience.com/byteball-move-proposal-831187509ed0)
+  + [byteball原理解析1](https://bbfans.org/2018/05/21/byteball-principle-dag-struct/) - DAG数学基础及byteball区块链结构
+  + [byteball原理解析2](https://bbfans.org/2018/05/21/byteball-consensus-algorithm/) - byteball的共识算法
+  + [byteball原理解析3](https://bbfans.org/2018/05/21/byteball-address-script-contract/) - byteball的地址、脚本及合约
+  + [byteball原理解析4](https://bbfans.org/2018/05/21/byteball-network-structure/) - byteball的网络结构
+  + [byteball原理解析5](https://bbfans.org/2018/05/21/byteball-application-summary/) - byteball的应用
+  + [ByteBall网络节点通信协议详解](https://bbfans.org/2018/06/14/byteball-network-protocol/)
+  + [Byteball 访谈录( 第1部分): 第三代加密货币，见证人，IOTA vs. BYTEBALL](https://bbfans.org/2018/06/15/byteball-interview-part1/)
+  + [Byteball访谈录（第2部分）：技术优势，黑字节，定期分发和返现系统](https://bbfans.org/2018/06/15/byteball-interview-part2/)
+  + [ByteBall钱包详解](https://bbfans.org/2018/06/17/byteball-wallet-part1/)
+  + [再论ByteBall钱包](https://bbfans.org/2018/06/26/byteball-wallet-part2/)
+  + [ByteBall见证人基本原理](https://bbfans.org/2018/08/04/byteball-witness-principle/)
+  + [ByteBall加密通信原理解析](https://bbfans.org/2018/08/08/byteball-private-communication/)
+  + [ByteBall目前存在的一些问题及改进方向](https://bbfans.org/2018/08/25/byteball-flaws-and-future-direction/)
+  + [ByteBall核心算法之交易单元生成过程](https://bbfans.org/2018/08/31/byteball-core-algorithm-unit-generation/)
 
 ### NANO
 
