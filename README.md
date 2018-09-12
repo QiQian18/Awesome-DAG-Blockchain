@@ -4,11 +4,6 @@
 [![](https://camo.githubusercontent.com/cb8cb80af654f3dae14a4aa62e44bf62f16953d6/68747470733a2f2f6a617977636a6c6f76652e6769746875622e696f2f73622f6c616e672f6368696e6573652e737667)](README.md)
 [![](https://camo.githubusercontent.com/15a53d5ec5d896319068168a27da0203156bbdb9/68747470733a2f2f6a617977636a6c6f76652e6769746875622e696f2f73622f6c616e672f656e676c6973682e737667)](README-en.md)
 
-这个仓库主要是用来搜集与基于DAG技术的区块链相关的资源，请随意Star或者Fork。如果有任何建议和评论，[请提交到这里](https://github.com/guantau/Awesome-DAG-Blockchain/issues)。欢迎提交各种PR :)，格式参考 [awesome](https://github.com/sindresorhus/awesome) 的清单。
-
-> 喜欢DAG技术的小伙伴有根据地啦，欢迎来我们的DAG技术研究室（ https://daglabs.io/ ）交流及投稿
-> 
-> 对字节雪球ByteBall感兴趣的可以到ByteBall技术社区（ https://bbfans.org/ ）进行交流
 
 
 [中文](README.md) | [English](README-en.md)
@@ -63,12 +58,13 @@
 
 ### IOTA
 
-+ 简介：面向物联网应用
++ 简介：面向物联网应用的货币。使用者每发起一笔交易，必须验证之前的两笔交易。如果一笔交易不被后来者验证（用POW），就会失去合法性。
 + [官网](https://iota.org/)
 + [白皮书](https://iota.org/IOTA_Whitepaper.pdf)
-+ [代码库](https://github.com/iotaledger)
++ [Tangle](https://www.iota.org/research/academic-papers)
++ [代码库](https://github.com/iotaledger)有接入Node的API
 + 相关文章：
-  + [解不开的缠结和IOTA的泪](http://mp.weixin.qq.com/s/BXf3BTMDGVbMheRQjZXQPw)
+  + [解不开的缠结和IOTA的泪](https://zhuanlan.zhihu.com/p/35410315)
   + [10分钟看懂曾飙涨千倍却暗藏风险的IOTA和它的DAG](http://mp.weixin.qq.com/s/RV9Buz_J2s-ZeufPV7afTg)
   + [Cryptographic vulnerabilities in IOTA](https://medium.com/@neha/cryptographic-vulnerabilities-in-iota-9a6a9ddc4367)
   + [创始人come-from-beyond解释IOTA的经济学考虑](https://medium.com/@comefrombeyond/economic-clustering-and-iota-d3a77388900)
@@ -77,7 +73,7 @@
 
 ### Byteball
 
-+ 简介：面向日常支付使用，具有简单的智能合约
++ 简介：面向日常支付使用，具有简单的智能合约。货币平台。
 + [官网](http://byteball.org/)
 + [白皮书](https://byteball.org/Byteball.pdf)
 + [代码库](https://github.com/byteball)
@@ -115,13 +111,15 @@
 + 相关文章：
   + [RaiBlocks网络压力测试1](https://hackernoon.com/stress-testing-the-raiblocks-network-568be62fdf6d)
   + [RaiBlocks网络压力测试2](https://medium.com/@bnp117/stress-testing-the-raiblocks-network-part-ii-def83653b21f)
+  + [NANO币—潜力巨大的下一代数字货币](https://zhuanlan.zhihu.com/p/35845590)
+  + [深扒源石币（NANO/RaiBlocks）](https://zhuanlan.zhihu.com/p/34763676)
 
 ### HashGraph
 
-+ 简介：一种新型的DAG技术
++ 简介：一种新型的DAG技术。共识建立在数学证明之上，还未在大规模公链环境下运行,没有公开项目源码
 + [官网](https://hashgraph.com/)
 + [白皮书](https://www.swirlds.com/downloads/SWIRLDS-TR-2016-01.pdf)
-+ 代码库：
++ 代码库：基于hashgraph共识实现的。
   + [Python实现](https://github.com/Lapin0t/py-swirld)
   + [NodeJS实现](https://github.com/TheCallSign/hashgraph)
   + [Go实现](https://github.com/babbleio/babble)
@@ -144,9 +142,10 @@
 
 ### COTI
 
-+ 简介：基于DAG的新型数字支付，提出Trust Chain共识
++ 简介：目标是建立一个去中心化和可扩展的支付网络，提升全球商业的效率，成为传统支付系统（如Visa、万事达卡和Paypal）的数字货币替代品。提出Trust Chain共识。仅有动画模拟，未开源
 + [官网](https://www.coti.io)
 + [白皮书](https://www.coti.io/en/files/COTI-overview-document.pdf?v=a059736e358)
++ [代码库](https://github.com/coti-io)
 + 相关文章：
   + [技术白皮书](https://www.coti.io/en/files/COTI-technical-whitepaper.pdf?v=a059736e358)
   + [The Trustchain Consensus](https://medium.com/cotinetwork/the-trustchain-consensus-44a0c807c71d) - 共识算法介绍
@@ -154,34 +153,37 @@
 
 ### CyberVein
 
-+ 简介：为DAG引入了一种新型资源节约共识机制，重塑了去中心化数据库，以及人们保护信息并实现信息资产化的方式
++ 简介：为DAG引入了一种新型资源节约共识机制，重塑了去中心化数据库，以及人们保护信息并实现信息资产化的方式。源码部分公开
 + [官网](https://www.cybervein.org/)
 + [白皮书](https://www.cybervein.org/whitepaper)
++ [代码库](https://github.com/Cyberveinofficial)
++ [对标IOTA和雪球？CyberVein还不仅仅如此](https://www.jinse.com/blockchain/136520.html)
++ [CyberVein是什么](https://www.jianshu.com/p/a1d1bc2335b6)
 
-### Perlin
+### Perlin 
 
-+ 简介：实现了Avalanche协议，分为共识层和计算层
++ 简介：实现了Avalanche协议，分为共识层和计算层。开源
 + [官网](https://www.perlin.net/)
 + [白皮书](https://ipfs.io/ipfs/QmXNJXNtxFDg5vwBiXuDSUGpfatakock1qJzQkNujzrP37)
 + [代码库](https://github.com/perlin-network)
 
 ### DAGX
 
-+ 简介：基于DAG的价值互联与交换网络
++ 简介：基于DAG的价值互联与交换网络（非开源）
 + [官网](https://dagx.io/)
 + [白皮书](https://dagx.io/dagx.pdf)
 + [代码库](https://github.com/dagxio)
 
 ### DAGCoin
 
-+ 简介：基于Byteball代码进行修改
++ 简介：基于Byteball代码进行修改,开源
 + [官网](https://dagcoin.org/)
 + [白皮书](https://dagcoin.org/whitepaper.pdf)
 + [代码库](https://github.com/dagcoin/)
 
 ### TrustNote
 
-- 简介：基于Byteball代码进行修改
+- 简介：基于Byteball代码进行修改，开源，国内公司
 - [官网](https://trustnote.org/)
 - [白皮书](https://trustnote.org/TrustNote-WhitePaper.pdf)
 - [代码库](https://github.com/trustnote)
@@ -189,13 +191,13 @@
 
 ### Nerthus
 
-- 简介：基于DAG通用的智能合约编程平台与区块链操作系统
+- 简介：基于DAG通用的智能合约编程平台与区块链操作系统，未开源，国内公司
 - [官网](http://nerthus.io/)
 - [白皮书](http://nerthus.io/static/downfile/NerthusWhitePageV0.0.2.pdf)
 
 ### IOT Chain
 
-- 简介：使用PBFT+DAG
+- 简介：使用PBFT+DAG。主链代码开源
 - [官网](https://iotchain.io/)
 - [白皮书](https://iotchain.io/whitepaper/ITCWHITEPAPER.pdf)
 - [代码库](https://github.com/IoTChainCode)
@@ -206,10 +208,11 @@
 - [创世贴](https://bitcointalk.org/index.php?topic=2552368.0)
 - [官网](http://xdag.io/)
 - [白皮书](https://docs.google.com/document/d/1ruNpTVghy0Xsb8gOa-8sYG58GHU_ibeGnwJi2h0TTnA/edit)
+- [代码库](https://github.com/XDagger)
 
 ### MOL
 
-+ 简介：即时免交易费的DAG公有链
++ 简介：即时免交易费的DAG公有链，未开源
 + [官网](https://www.mol.one/)
 + [白皮书](https://www.mol.one/static/assets/Whitepaper.pdf)
 + [钱包](https://www.mol.one/wallet.html)
@@ -219,6 +222,24 @@
 
 - 简介：基于DAG的知识付费
 - [白皮书](https://blog.askcoin.org/askcoin-in-one-page-f284bb3d9b42)
+
+
+### hycon
+- 简介：平台型公链
+- [官网](https://hycon.io/)
+- [白皮书](https://hycon.io/wp-content/uploads/2018/08/whitepaper_cn.pdf)
+- [代码库](https://github.com/Team-Hycon)
+
+### Algorand
+- 简介：公有链系统，代表了区块链底层技术的一个重要方向。与比特币区块链相比，Algorand区块链具有能耗低、效率高、民主化、极低分叉概率、可拓展性好等优势。MIT,开源社区
+- [官网](https://www.algorand.com/)
+- [白皮书](https://www.algorand.com/docs/whitepapers/)
+- [论文](https://arxiv.org/pdf/1607.01341.pdf)
+- [代码库](https://github.com/fractalide/fractalchains)
+
+### Bsure
+- 简介：专业数字保险和大健康区块链智能平台,测试链已经上线,并在开发 Bsure.cloud 链云基础设施
+- [官网](https://bsure.vip/)
 
 
 ### 其它
@@ -241,7 +262,7 @@
 ## 相关视频
 
 
-
+S
 ## 相关人物
 
 + Sergio Demian Lerner
